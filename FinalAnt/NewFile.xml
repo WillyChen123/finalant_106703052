@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FinalAnt.makejar" default="makejar" basedir=".">
+	<target name="makejar" description="2019 Java Final Exam">
+		<jar jarfile="nccusd.jar" includes="*.class" basedir="bin"/>
+	</target>
+</project>
